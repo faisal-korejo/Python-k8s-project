@@ -1,0 +1,8 @@
+my-flask-app/
+├── app.py
+├── Dockerfile
+├── requirements.txt
+└── templates/
+    ├── home.html
+    └── greet.html
+
