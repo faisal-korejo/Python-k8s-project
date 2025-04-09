@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greet User</title>
+</head>
+<body>
+    <h1>Greet User</h1>
+    <p>Enter your name to receive a personalized greeting:</p>
+    <form method="POST">
+        Name: <input type="text" name="name" required>
+        <input type="submit" value="Greet">
+    </form>
+    {% if name %}
+    <h2>Hello, {{ name }}!</h2>
+    {% endif %}
+    <a href="/">Go back to Home</a>
+</body>
+</html>
+
